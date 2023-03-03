@@ -1,0 +1,38 @@
+body{
+    background-color:#FF9796;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+
+
+}
+
+nav{
+    background-color: #FFFEA3;
+
+}
+
+main, section{
+    background-color: #E2C9FF;
+}
+
+nav, main, section{
+    box-sizing: border-box;
+    padding: 20px;
+    margin:  20px;
+    border-radius: 20px;
+
+}
+
+/* menu */
+ul{
+    list-style-type: none;
+
+}
+li{
+    border:2px solid #BDFFD0;
+    display: inline-block
+}
